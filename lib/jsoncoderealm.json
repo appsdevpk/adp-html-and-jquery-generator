@@ -1,0 +1,75 @@
+[
+	{"head_start":""},
+	{
+		"title_start":{
+			"contents":"Realm Framework Demo",
+			"title_end":""
+		}
+	},
+	{
+		"script_start": {
+			"attribs":{
+				"src":"https://cdn.jsdelivr.net/npm/@realmorg/realm/dist/realm.production.min.js",
+				"type":"module"
+			},
+			"script_end":""
+		}
+	},
+	{
+		"link": {
+			"attribs":{
+				"href":"https://cdn.jsdelivr.net/npm/@realmorg/realm/dist/realm.min.css",
+				"rel":"stylesheet"
+			}
+		}
+	},
+	{"head_end":""},
+	{"body_start":""},
+	{"web-app_start":""},
+	{
+		"custom-element_start":{
+			"attribs":{
+				"name":"my-element"
+			}
+		}
+	},
+	{
+		"element-attr_start":{
+			"attribs":{
+				"name":"realm",
+				"type":"string"
+			},
+			"contents":"World",
+			"element-attr_end":""
+		}
+	},
+	{
+		"template_start":{
+			"contents":"I'm from the"
+		}
+	},
+	{"strong_start":""},
+	{
+		"slot_start":{
+			"attribs":{
+				"name":"@realm"
+			},
+			"slot_ends":""
+		}
+	},
+	{"strong_end":""},
+	{"template_end":""},
+	{"custom-element_end":""},
+	{"my-element_start":""},
+	{"my-element_end":""},
+	{
+		"my-element_start":{
+			"attribs":{
+				"realm":"Universe"
+			},
+			"my-element_end":""
+		}
+	},
+	{"web-app_end":""},
+	{"body_end":""}
+]

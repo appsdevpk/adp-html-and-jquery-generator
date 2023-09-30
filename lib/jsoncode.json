@@ -1,0 +1,42 @@
+[
+	{"head_start":""},
+	{
+		"title_start":{
+			"contents":"Web Page Title",
+			"title_end":""
+		}
+	},
+	{
+		"script_start": {
+			"attribs":{
+				"src":"https://code.jquery.com/jquery-3.4.1.min.js"
+			},
+			"script_end":""
+		}
+	},
+	{"head_end":""},
+	{"body_start":""},
+	{
+		"div_start":{
+			"attribs": {
+				"class":"testDivClass",
+				"id":"testDiv",
+				"styleSelector":".testDivClass",
+				"style": {
+					"width":"500px",
+					"padding":"20px",
+					"border":"1px solid #000",
+					"margin":"50px auto"
+				}
+			}
+		}
+	},
+	{
+		"p_start":{
+			"contents":"Some paragraph content here",
+			"p_end":""
+		}
+	},
+	{"div_end":""},
+	{"body_end":""}
+]
